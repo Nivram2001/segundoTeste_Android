@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btt_approved"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Approved"
+        app:cornerRadius ="30dp"/>
+
+    <Button
+        android:id="@+id/btt_exam"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Exam"
+        app:cornerRadius ="30dp"/>
+
+    <Button
+        android:id="@+id/btt_register"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:cornerRadius ="30dp"/>
+
+</LinearLayout>

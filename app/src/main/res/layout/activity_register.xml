@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/home">
+
+    <TextView
+        android:id="@+id/student_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record all student data"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FF003169"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"/>
+
+    <EditText
+        android:id="@+id/student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT ID"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF003169"/>
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT NAME"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF003169"/>
+
+    <EditText
+        android:id="@+id/student_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT NOTE ONE"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF003169"/>
+
+    <EditText
+        android:id="@+id/student_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT NOTE TOO"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF003169"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btt_cancel"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:textSize="15sp"
+            android:layout_marginRight="16dp"
+            app:cornerRadius ="30dp"/>
+
+        <Button
+            android:id="@+id/btt_add"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:layout_marginLeft="16dp"
+            android:textSize="15sp"
+            app:cornerRadius ="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
