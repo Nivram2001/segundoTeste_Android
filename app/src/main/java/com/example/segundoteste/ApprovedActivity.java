@@ -20,7 +20,7 @@ public class ApprovedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_approved);
 
-        //
+        //Chamar o rescycleView
         recyclerView_Approved = findViewById(R.id.recycleView_Approved);
 
         //chamar a DB e relacionala com a studentList

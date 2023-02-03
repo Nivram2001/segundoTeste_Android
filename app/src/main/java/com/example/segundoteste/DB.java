@@ -96,9 +96,9 @@ public class DB extends SQLiteOpenHelper {
         return students;
     }
 
-    public void deleteStudent(Student student) {
+    public long deleteStudent(Integer id) {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete(TABLE_NAME, COLUMN_ID + " = ?", new String[]{String.valueOf(student.getId())});
-        db.close();
+        return db.delete(TABLE_NAME, COLUMN_ID + " = ?", new String[]{String.valueOf(id)});
+      //  db.close();
     }
 }
